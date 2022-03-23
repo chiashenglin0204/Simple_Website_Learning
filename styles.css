@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Tangerine&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: #fffff7;
+}
+
+.main-header,
+.main-footer {
+  background-image: url("Images/pink-theme.jpeg");
+  background-size: cover;
+  background-color: #f8e6f1;
+  background-blend-mode: multiply;
+  padding-bottom: 20px;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  padding: 0.5em;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+.nav a:hover {
+  background-color: #f1ecec;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 0.5px solid #a09c9c;
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.yang-mi-name {
+  text-align: center;
+  margin: 0.5em;
+  font-size: 3em;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-weight: bold;
+}
+
+.about-yang-mi-image {
+  float: left;
+  height: 80%;
+  width: 30%;
+  margin: 1em;
+  border-radius: 0.5em;
+}
+
+.main-footer {
+  padding: 0.25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-title {
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+  border-radius: 0.5em;
+}
